@@ -1,0 +1,59 @@
+.wp-block-blocks-apps-flyer-cards {
+  max-width: 1320px;
+  margin: 10rem auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wp-block-blocks-apps-flyer-cards.has-1-columns .wp-block-blocks-apps-flyer-card {
+  width: calc(100% / 1 - 20px);
+}
+
+.wp-block-blocks-apps-flyer-cards.has-2-columns .wp-block-blocks-apps-flyer-card {
+  width: calc(100% / 2 - 20px);
+}
+
+.wp-block-blocks-apps-flyer-cards.has-3-columns .wp-block-blocks-apps-flyer-card {
+  width: calc(100% / 3 - 20px);
+}
+
+.wp-block-blocks-apps-flyer-cards.has-4-columns .wp-block-blocks-apps-flyer-card {
+  width: calc(100% / 4 - 20px);
+}
+
+.wp-block-blocks-apps-flyer-cards.has-5-columns .wp-block-blocks-apps-flyer-card {
+  width: calc(100% / 5 - 20px);
+}
+
+.wp-block-blocks-apps-flyer-cards.has-6-columns .wp-block-blocks-apps-flyer-card {
+  width: calc(100% / 6 - 20px);
+}
+
+.wp-block-blocks-apps-flyer-cards .wp-block-blocks-apps-flyer-card {
+  margin: 10px;
+  text-align: center;
+}
+
+.wp-block-blocks-apps-flyer-cards .wp-block-blocks-apps-flyer-card h3 {
+  padding: 0 0 2rem 0;
+  font-size: 24px;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 88%;
+  margin: auto;
+  min-height: 96px;
+}
+
+.wp-block-blocks-apps-flyer-cards .wp-block-blocks-apps-flyer-card p {
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}

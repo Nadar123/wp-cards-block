@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "blocks-apps-flyer/cards",
+    "version": "0.1.0",
+    "title": "Cards",
+    "category": "media",
+    "icon": "groups",
+    "description": "Cards block",
+    "keywords": ["Cards", "Cards-grid"],
+    "supports": {
+        "html": false
+    },
+    "textdomain": "cards",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css",
+    "attributes": {
+        "columns": {
+            "type": "number",
+            "default": 4
+        }
+    }
+}
