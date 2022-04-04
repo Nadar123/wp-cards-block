@@ -1,7 +1,7 @@
 # wp-cards-block
 
 Installation:
-cd wp-content/plugin
+cd wp-content/plugin/cards
 
 npm install
 
